@@ -23,5 +23,5 @@ func init() {
 	log.SetOutput(mv) //写入控制台和文件
 	// log.SetOutput(logF)
 	log.SetPrefix(hostname)
-	log.SetFlags(log.Llongfile | log.Lmicroseconds | log.Ldate)
+	log.SetFlags(log.Llongfile | log.Lmicroseconds | log.Ldate | log.Lshortfile)
 }
